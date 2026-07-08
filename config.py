@@ -55,7 +55,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ======================================================
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/BABULXMUSIC905/RUDRA_MUSICBOTS")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GIT_TOKEN = getenv("GIT_TOKEN", "YOUR_GIT_TOKEN")
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # ======================================================
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/statusdairy2")
