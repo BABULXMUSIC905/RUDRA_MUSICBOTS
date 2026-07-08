@@ -17,24 +17,24 @@ from pyrogram import filters
 load_dotenv()
 
 # ======================================================
-API_ID = int(getenv("API_ID", "24168862"))
-API_HASH = getenv("API_HASH", "916a9424dd1e58ab7955001ccc0172b3")
+API_ID = int(getenv("API_ID", "32757654"))
+API_HASH = getenv("API_HASH", "7c0480a3292edbf8218e6e668c2fb4af")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 # ======================================================
-OWNER_ID = int(getenv("OWNER_ID", 5857831018))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "lll_BADNAM_BABY_llll")
-BOT_USERNAME = getenv("BOT_USERNAME", "Shivisongbot")
-BOT_NAME = getenv("BOT_NAME", "Sonali Music")
+OWNER_ID = int(getenv("OWNER_ID", 8524477758))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_HACKU_ll")
+BOT_USERNAME = getenv("BOT_USERNAME", "Rudramusicrobot")
+BOT_NAME = getenv("BOT_NAME", "Rudra music")
 ASSUSERNAME = getenv("ASSUSERNAME")
 
 # ======================================================
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1003670001038))
+LOGGER_ID = int(getenv("LOGGER_ID", -100351153837))
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY" , 'xbit_GjLUhA7Xsu_5Dr_xBdFZLr8LzorcKIkK') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
+YT_API_KEY = getenv("YT_API_KEY" , 'ShrutiBots6FYVmwEA8s5K38FQ2n6I') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 # ======================================================
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
@@ -53,13 +53,13 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ======================================================
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/yjee4247-code/kirtipublic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/BABULXMUSIC905/RUDRA_MUSICBOTS")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", "YOUR_GIT_TOKEN")
 
 # ======================================================
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Kirti_update")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/kirti_supprot_group")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/statusdairy2")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/QueenSupportChatBot")
 
 # ======================================================
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565aed")
