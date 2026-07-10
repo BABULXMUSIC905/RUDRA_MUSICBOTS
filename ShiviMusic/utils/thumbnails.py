@@ -256,14 +256,14 @@ def draw_glowing_progress_bar(draw, canvas, x0, y0, x1, bar_h, thumb_frac, palet
 
 # ── main function ─────────────────────────────────────────────────────────────
 
-async def get_thumb(videoid, user_id, title=None, duration=None, thumbnail=None,
+async def gen_thumb(videoid, user_id, title=None, duration=None, thumbnail=None,
                     views=None, channel=None):
     """
     Generate a styled now-playing thumbnail.
 
     Called as:
-      get_thumb(videoid, user_id)                            – auto-fetches details
-      get_thumb(videoid, user_id, title=, duration=, ...)   – uses provided details
+      gen_thumb(videoid, user_id)                            – auto-fetches details
+      gen_thumb(videoid, user_id, title=, duration=, ...)   – uses provided details
     """
     if os.path.isfile(f"cache/{videoid}_{user_id}.png"):
         return f"cache/{videoid}_{user_id}.png"
