@@ -259,7 +259,7 @@ def _truncate(draw, text, font, max_w):
     return text + "…"
 
 
-async def get_thumb(videoid: str, user_name: str = "RUDRA MUSIC") -> str:
+async def get_thumb(videoid: str, user_name: str = "QueenUser") -> str:
     output = f"cache/{videoid}.png"
     cache  = f"cache/thumb{videoid}.jpg"
     os.makedirs("cache", exist_ok=True)
@@ -532,7 +532,7 @@ async def get_thumb(videoid: str, user_name: str = "RUDRA MUSIC") -> str:
         fill=c_base,
         anchor="lm"
     )
-    draw.text((1255, 45), "Dev | BADNAM",                                          font=f_wm,  fill=TEXT_WHITE, anchor="rd")
+    draw.text((1255, 45), "Dev | RUDRA OP",                                          font=f_wm,  fill=TEXT_WHITE, anchor="rd")
 
     base.save(output, "PNG", optimize=True)
 
